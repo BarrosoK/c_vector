@@ -15,6 +15,7 @@
 #define ORDER_INTEGER (101)
 
 #define VECTOR_GET_AS(type, vector_pointer, index) ((type)v_at((vector_pointer), (index)))
+#define VECTOR_PUSH_BACK(vector_pointer, data) (v_push_back(vector_pointer, (void *)data))
 
 typedef struct object_s object_t;
 typedef struct vector_s vector_t;
