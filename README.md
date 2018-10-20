@@ -4,7 +4,7 @@
 Here's an small C implementation of **vectors**.
 
 
-| Action | Prototype | Exemple |
+|Action|Prototype|Example|
 |--|--|--|
 | Retrieve data  | `    v_at(vector_pointer, index)`  |  `vector->(my_vector, 0)`
 |Push data|`v_push_back(vector_pointer, void *data)`|`vector->push_back(my_vector, (void *)3)`
@@ -13,7 +13,7 @@ Here's an small C implementation of **vectors**.
 
 
 ## Macros
-|Function|Prototype|Exemple|
+|Function|Prototype|Example|
 |--|--|--|
 |`at`|`VECTOR_GET_AS(type, vector_pointer, index)`|`VECTOR_GET_AS(int, my_vector, 1)`|
 |`push_back`|`VECTOR_PUSH_BACK(vector_pointer, data)`|`VECTOR_PUSH_BACK(my_vector, 42)`|
